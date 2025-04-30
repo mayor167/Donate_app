@@ -7,7 +7,7 @@
     <div class="row w-100">
         <div class="col-md-6 offset-md-3">
             <div class="card p-4 shadow-sm">
-                <h1 class="text-center mb-4" style="font-size: 30px;">Donate and Make a Difference</h1>
+                <h1 class="text-center mb-4" style="font-size: 30px;">Lend a Hand. Light Up a Life.</h1>
                 {{-- -- display success flash message -- --}}
                 @if(session('success'))
                         <div class="alert alert-success ">

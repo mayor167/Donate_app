@@ -65,7 +65,7 @@ class DonationController extends Controller
 
         // Redirect back to form with success message
         return redirect()->route('donation.form')
-            ->with('success', 'Donation confirmed successfully!');
+            ->with('success', 'Donation made successfully. Thank you!');
     } catch (\Exception $e) {
         return redirect()->route('donation.form')
             ->with('error', 'An error occurred while confirming your donation. Please try again.');

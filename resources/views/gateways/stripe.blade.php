@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', 'PayPal Payment')
+@section('title', 'Stripe Payment')
 @section('maincontent')
 
 <div class="container mt-5">
@@ -7,7 +7,7 @@
         <div class="col-md-6">
             <div class="card shadow-lg rounded">
                 <div class="card-header bg-primary text-white text-center">
-                    <h3>Stripe Payment Summary</h3>
+                    <h3>Paystack Payment Summary</h3>
                 </div>
 
                 <div class="card-body text-center">

@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', 'PayPal Payment')
+@section('title', 'Binance Payment')
 @section('maincontent')
 
 <div class="container mt-5">
